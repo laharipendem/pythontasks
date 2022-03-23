@@ -1,0 +1,36 @@
+#Create an empty list (two ways)
+empty_list=[]
+empty=list()
+
+
+#Concatenate with [5,6,7,8]
+list2=[5,6,7,8]
+print(empty_list+list2)
+[5, 6, 7, 8]
+
+#add 8,9,1,5,6,7,8,1 elements to that list
+list3=[8,9,1,5,6,7,8,1]
+print(empty_list+list2+list3)
+[5, 6, 7, 8, 8, 9, 1, 5, 6, 7, 8, 1]
+final_list=empty_list+list2+list3
+print(final_list)
+[5, 6, 7, 8, 8, 9, 1, 5, 6, 7, 8, 1]
+
+
+#Find frequency of 8 (count)
+print(final_list.count(8))
+3
+
+#find the mean of the list
+
+print(sum(final_list)/len(final_list))
+5.916666666666667
+
+
+#find sum (List) + min + Max
+print(sum(final_list))
+71
+print(min(final_list))
+1
+print(max(final_list))
+9
