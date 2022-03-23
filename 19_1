@@ -1,0 +1,172 @@
+#Task1:
+
+#Get one string from user
+#identify the middle character of the string
+name=input("Please enter your name   ")
+Please enter your name   Lahari
+length = len(name)
+middle_alpha=length//2
+print(name[middle_alpha])
+a
+
+
+#Task2:
+#string1: ***python***
+#string1: **python********
+#string: ********java*******
+string = "***python***"
+print(string.strip("*"))
+python
+string1 = "**python********"
+print(string1.lstrip("*"))
+python********
+string2 = "********java*******"
+print(string2.rstrip("*"))
+********java
+
+
+#Task3:(name<space>float)
+person1=input("Please enter your name and float")
+Please enter your name and float lahari 99.4
+person2=input("Please enter your name and float")
+Please enter your name and float Shivani 31.2
+person3=input("Please enter your name and float")
+Please enter your name and float rama 68.9
+person1=split()
+person1=person1.split()
+person2=person2.split()
+person3=person3.split()
+print(float(person1[1])+float(person2[1])+float(person3[1]))
+199.5
+
+
+#Task4
+  #collect two strings from user
+string1: python
+String2: java
+output ===> jythonpava64hv
+  
+A=input("enter string1 ")
+enter string1 python
+B= input("enter string2 ")
+enter string2 java
+length1=len(A)
+length2=len(B)
+middle1=length1//2
+middle2=length2//2
+print(B[0]+A[1:]+A[0]+B[1:]+str(length1)+str(length2)+A[middle1]+B[middle2])
+jythonpava64hv
+
+
+
+string1: maths
+string2: science
+
+output ===> sathsmcience57te
+  
+A=input("enter string1 ")
+enter string1 maths
+B= input("enter string2 ")
+enter string2 science
+length1=len(A)
+length2=len(B)
+middle1=length1//2
+middle2=length2//2
+print(B[0]+A[1:]+A[0]+B[1:]+str(length1)+str(length2)+A[middle1]+B[middle2])
+sathsmcience57te
+  
+#Task5
+A=input("enter string1 ")
+enter string1 wikipedia
+B= input("enter sting2 ")
+enter sting2 typescript
+length1=len(A)
+length2=len(B)
+middle1=length1//2
+middle2=length2//2
+print(A[middle1])
+p
+print(B[middle2])
+c
+print(ord(A[middle1]))
+112
+print(ord(B[middle2]))
+99
+print(ord(A[middle1])+ord(B[middle2]))
+211
+
+#Task6
+A=input("enter a string ")
+enter a string computer
+x=A[0]
+z=A[-1]
+y=len(A[1:-1])
+print(x+str(y)+z)
+c6r
+  
+A=input("enter a string ")
+enter a string mathematics
+x=A[0]
+z=A[-1]
+y=len(A[1:-1])
+print(x+str(y)+z)
+m9s
+  
+#Task7
+A=input("enter Hello World........")
+enter Hello World........Hello World
+
+#Task8
+A=input("enter string ")
+enter string lahari
+print(A.swapcase())
+LAHARI
+  
+  
+  
+#Task9
+A=input("Enter your Fisrt Name  ")
+Enter your Fisrt Name  Lahari
+B=input("Enter your Middle Name  ")
+Enter your Middle Name  Naga Durga
+C=input("Enter your Last Name  ")
+Enter your Last Name  Pendem
+print("Welcome",A,B,C,end="^.^")
+Welcome Lahari Naga Durga Pendem^.^
+
+
+  
+#Task10
+A=input("enter a string ")
+enter a string march_april
+print(A[:5]+"**"+A[6:])
+march**april
+
+#Task11
+A=int(input("enter n1   "))
+enter n1   4
+B= int(input("enter n2  "))
+enter n2  8
+print(A+B)
+12
+print(A-B)
+-4
+print(A*B)
+32
+print(A/B)
+0.5
+
+  
+#Task12
+A=int(input("enter n1   "))
+enter n1   4
+B= int(input("enter n2  "))
+enter n2  8
+print(A/B)
+0.5
+print(A//B)
+0
+ 
+
+
+  
