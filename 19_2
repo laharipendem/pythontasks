@@ -34,3 +34,70 @@ print(min(final_list))
 1
 print(max(final_list))
 9
+
+
+#Find median of the list
+list=[1,2,3,4,6,5]
+>>> list.sort()
+>>> print(list)
+[1, 2, 3, 4, 5, 6]
+>>> median=len(list)//2
+>>> print(median)
+3
+>>> print(list[median])
+4
+>>> 
+
+#remove duplicates from list and give output in the format of tuple
+list=[1,1,2,2,3,4,5,5]
+>>> list2=tuple(list)
+>>> print(list2)
+(1, 1, 2, 2, 3, 4, 5, 5)
+>>> 
+
+
+#Create two tuples (1,4,5,6,7,8) (5,6,7,8,9)
+#Find the common elements between two tuples
+ A=(1,4,6,3,8)
+>>> B=(3,5,6,7,9)
+>>> tuple1=set(A) #method which is used to collect datatypes with no duplicates
+>>> tuple2=set(B)
+>>> common=(tuple1 & tuple2)
+>>> print(common)
+{3, 6}
+>>>
+
+#Concatenate both tuples and remove duplicates from tuple
+A=(1,4,6,3,8)
+>>> B=(3,5,6,7,9)
+>>> add=A+B
+>>> print(add)
+(1, 4, 6, 3, 8, 3, 5, 6, 7, 9)
+>>> duplicates=set(add)
+>>> print(duplicates)
+{1, 3, 4, 5, 6, 7, 8, 9}
+>>> 
+
+#Find the index value of 9 (after concatenation)
+>>> A=(1,4,6,3,8)
+>>> B=(3,5,6,7,9)
+>>> add=A+B
+>>> print(add)
+(1, 4, 6, 3, 8, 3, 5, 6, 7, 9)
+>>> print(add.index(9))
+9
+>>> 
+
+#multiply above elements 3 times
+A=(1,4,6,3,8)
+>>> B=(3,5,6,7,9)
+>>> add=A+B
+>>> print(add)
+(1, 4, 6, 3, 8, 3, 5, 6, 7, 9)
+>>> multiply=(3*(add))
+>>> print(multiply)
+(1, 4, 6, 3, 8, 3, 5, 6, 7, 9, 1, 4, 6, 3, 8, 3, 5, 6, 7, 9, 1, 4, 6, 3, 8, 3, 5, 6, 7, 9)
+>>> 
+
+
+
