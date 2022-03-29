@@ -70,5 +70,26 @@ for num2 in range(-96,-72,8):
     print(num2)
     
  Task2:
+ Get a dynamic list from user
+ 
+ lst=[]
+ele=int(input("enter the number of elements  "))
+for i in range(0,ele):
+    user=int(input("enter the elements in the list: "))
+    lst.append(user)
+    print(lst)
+
+Task3:
+Get a dynamic dictionary from user
+
+dyn={}
+ele=int(input("enter the number of elements: "))
+for i in range(0,ele):
+    key=int(input("enter a key  "))
+    value=input("enter a value  ")
+    dyn[key]=value
+    print(dyn)
+ 
+ 
  
  
