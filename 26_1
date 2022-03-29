@@ -1,3 +1,13 @@
+#hackerrank Write a function
+year = int(input("Enter the year:"))
+if (year%4==0) or (year%400==0) and (year%100!=0):
+    print(year,"is leap year")
+else:
+    print(year,"is not leap year")
+Enter the year:>? 2022
+2022 is not leap year
+-------------------------------------
+
 #hackerrank Python If-Else
 num=int(input("enter a num "))
 enter a num >? 5
@@ -12,6 +22,53 @@ else:
         print("not wierd")
         
 wierd
-
+-----------------------------------
 
 #Fizz buzz
+
+num=int(input("enter a number   "))
+if(num%3)==0 and (num%5==0):
+    print("FizzBuzz")
+elif (num%5)==0:
+        print("Buzz")
+elif(num%3)==0 :
+        print("Fizz")
+else:
+    print("invalid")
+enter a number   15
+FizzBuzz
+--------------------------------------
+#Get one mark from student
+
+mark=int(input("enter your score   "))
+if (0<mark<100):
+    print(mark,"is valid")
+    if (50<mark<100):
+        print("pass")
+    if 90<mark<100:
+        print("A")
+    elif 80<mark<89:
+        print("B")
+    elif 70<mark<79:
+        print("C")
+    elif 60<mark<69:
+        print("D")
+    elif 50<mark<59:
+        print("E")
+else:
+    print("fail")
+
+---------------------------------------------------------------------------
+Task1:
+for num1 in range(0,75,5):
+    print(num1)
+for num2 in range(0,72,8):
+    print(num2)
+ for num1 in range(-75,0,5):
+    print(num1)
+for num2 in range(-96,-72,8):
+    print(num2)
+    
+ Task2:
+ 
+ 
