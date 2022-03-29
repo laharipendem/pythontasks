@@ -90,6 +90,29 @@ for i in range(0,ele):
     dyn[key]=value
     print(dyn)
  
+ Task4:
+ Get two integers from user
+ int1=int(input("enter an integer  "))
+int2=int(input("enter another integer  "))
+dct=[]
+for i in range(int1,int2):
+    if i%8==0:
+        dct.append(i)
+        print(dct)
+Task5:
+Li1 = [3,4,5,2,7,8,9,10]
+Li_even =[]
+Li_odd=[]
+for i in Li1:
+    if(i%2==0):
+        Li_even.append(i)
+        print(Li_even)
+    elif(i%2!=0):
+        Li_odd.append(i)
+        print(Li_odd)
+  
+ Task6:
+ 
  
  
  
